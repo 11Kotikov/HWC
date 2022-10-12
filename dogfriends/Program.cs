@@ -7,17 +7,18 @@ int friend = 2;
 
 while (distance > 10)
 {
-    if (friend = 1) 
+    if (friend == 1) 
         {
-            double time = distance/(firstFriendSpeed+dogSpeed);
-        int friend = 2;
+            var time = distance/(firstFriendSpeed+dogSpeed);
+            friend = 2;
      }
      else
         {
-            double time = distance/(secondFriendSpeed+dogSpeed);
+            var time = distance/(secondFriendSpeed+dogSpeed);
+            friend = 1;
      }
 distance = distance - (firstFriendSpeed + secondFriendSpeed)*time;
-int count = count + 1;
+count = count + 1;
 
 }
 
