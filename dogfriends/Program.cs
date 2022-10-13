@@ -1,10 +1,10 @@
-﻿int count = 0;
-int distance = 10000;
-int firstFriendSpeed = 1;
-int secondFriendSpeed = 2;
-int dogSpeed = 5;
-int friend = 2;
-var time = 0;
+﻿double count = 0;
+double distance = 100000000000000;
+double firstFriendSpeed = 1;
+double secondFriendSpeed = 2;
+double dogSpeed = 5;
+double friend = 2;
+double time = 0;
 while (distance > 10)
 {
     if (friend == 1) 
